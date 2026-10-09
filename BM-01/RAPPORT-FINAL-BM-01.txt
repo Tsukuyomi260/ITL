@@ -1,0 +1,94 @@
+Objet : Rapport final · CTR-PRESTATAIRE-CDP-2026-001-BM-01 · Connexion de meddom.fr à son site Lovable
+
+Bonjour Luidgi,
+
+Voici mon rapport final pour le bon BM-01. Les heures sont en UTC (heure du Bénin = UTC+1), telles qu'horodatées dans les preuves.
+
+1. RÉSULTAT
+
+meddom.fr et www.meddom.fr affichent le site Lovable du projet, en HTTPS. Adresse principale : https://meddom.fr.
+
+| Critère du bon      | Résultat                                                                                   |
+|---------------------|--------------------------------------------------------------------------------------------|
+| Domaine             | Conforme. Vérifié dans Lovable, statut « Live » sur meddom.fr et www.meddom.fr            |
+| HTTPS               | Conforme. Certificat valide sur les deux adresses (Google Trust Services, jusqu'au 26/10/2026, renouvellement géré par Lovable) |
+| Redirection         | Partiellement conforme (voir point 4). http://meddom.fr redirige en 301, mais www.meddom.fr redirige en 302 vers https://meddom.fr |
+| Messagerie          | Conforme. MX (mx1, mx2, mx3.mail.ovh.net) et SPF identiques avant et après                 |
+| Accueil             | Conforme. https://meddom.fr répond 200, 0 erreur de console après rechargement             |
+| Preuves             | Déposées au dossier PREUVES (liste au point 6)                                             |
+
+2. CHOIX DE L'ADRESSE PRINCIPALE : meddom.fr
+
+La balise canonique et l'aperçu de partage (og:url) du site sont déjà réglés sur https://meddom.fr/. Choisir www aurait créé une incohérence pour le référencement. L'adresse sans « www » est aussi plus courte à communiquer pour le client.
+
+3. DÉROULÉ ET CONSTATS
+
+- 17:11 (18h11 heure du Bénin) : ouverture du jalon Upwork BM-01, acceptée. Mon délai démarre.
+- 17:18 : connexion OVH refusée avec l'identifiant « godson ». Le format attendu est NIC/godson ; identifiant complet reçu de l'Agence, connexion réussie à 17:52.
+- 17:27 : constat au registre AFNIC. meddom.fr porte le statut « client hold » (domaine suspendu, absent de tous les DNS publics). Signalé par mail, avec une demande de pause du délai.
+- 18:02 : suspension levée au registre.
+- 18:17 : relevé de la zone OVH (AVANT). Elle contient déjà exactement les enregistrements demandés par Lovable :
+    - A @ 185.158.133.1
+    - A www 185.158.133.1
+    - TXT _lovable
+    - TXT _lovable.www
+  Les deux valeurs TXT ont été comparées caractère par caractère (OVH, Lovable et DNS public) : elles sont identiques. Il n'y a aucun conflit (pas d'AAAA, pas de CAA, pas d'ancien A ou CNAME).
+  => Aucune modification de la zone n'a été nécessaire. La cause de l'indisponibilité était la suspension du domaine.
+- 18:18 : le domaine résout à nouveau dans le DNS public.
+- ~18:28 : relance de la connexion dans Lovable (« Recover ») sur les deux domaines (voir point 5).
+- 18:32 : zone APRÈS, interrogée directement sur le serveur faisant autorité dns106.ovh.net. Elle est strictement identique à la zone AVANT : 13 entrées, messagerie comprise.
+- 18:41 : le site est servi en HTTPS ; Lovable affiche « Live ».
+- 18:44 : contrôles finaux (redirections, console, canonique). Redirection www revérifiée à 18:52 : toujours 302.
+- 18:55 (19h55 heure du Bénin) : travail soumis sur le jalon Upwork BM-01.
+- 19:39 : mot de passe OVH changé (voir point 5).
+
+Laissés intacts, car ils n'entrent pas en conflit :
+- les TXT techniques d'OVH « 1|www.meddom.fr » (@) et « 3|welcome » (www) ;
+- le CNAME ftp ;
+- DNSSEC, qui reste actif ;
+- les serveurs DNS (dns106 / ns106.ovh.net), inchangés.
+
+4. ÉCART À ARBITRER PAR L'AGENCE
+
+La redirection de www.meddom.fr vers https://meddom.fr est générée par Lovable en 302 (temporaire), sur toutes les pages. Le bon demande une redirection permanente.
+
+On ne peut pas la corriger côté OVH sans repointer www hors de Lovable, ce qui serait une modification non prévue au bon. Je ne l'ai donc pas faite. Deux options :
+- (a) une demande au support Lovable, pour obtenir une redirection 301 ;
+- (b) l'acceptation de l'écart.
+
+Je revérifierai le code de redirection à votre demande.
+
+5. POINTS DE SÉCURITÉ, POUR TRANSPARENCE
+
+- « Recover » a ouvert Entri (app.goentri.com), le service partenaire de connexion de domaine de Lovable, qui demandait les identifiants OVH. Je les ai saisis.
+    - Vérification faite ensuite : aucune modification de la zone.
+    - Mot de passe OVH changé le 5 octobre 2026 à 19:39 UTC (20h39 heure du Bénin).
+    - Je vous suggère de vérifier les applications et jetons API de votre compte OVH et de révoquer celui d'Entri s'il existe.
+    - À l'avenir, je saisirai les enregistrements manuellement.
+- Mon accès OVH dépasse le périmètre prévu au bon (« limité au domaine meddom.fr »). Il affiche aussi un autre domaine et ses services, ainsi que les menus factures, moyens de paiement et contrats du compte. Je n'ai consulté que meddom.fr et n'ai ouvert aucun de ces menus. Vous voudrez peut-être restreindre les droits de cet utilisateur au seul meddom.fr. Par ailleurs, l'adresse e-mail rattachée à mon utilisateur est celle de l'Agence : une réinitialisation de mot de passe arrive donc chez vous, pas chez moi.
+
+6. PREUVES (dossier PREUVES, nommées par heure UTC)
+
+- Registre AFNIC : statut « client hold », puis suspension levée (JSON) ; requêtes DNS publiques (NXDOMAIN)
+- Connexion OVH : refus, format d'identifiant, connexion réussie
+- Fiche du domaine, avec DNSSEC actif
+- Zone AVANT : 3 captures, 13 entrées
+- Enregistrements demandés par Lovable : racine et www
+- Comparaison des valeurs TXT
+- Suivi de propagation ; DNS résolu avant Recover
+- Écran Entri, mot de passe masqué ; Lovable « connecté » pour les deux domaines ; Lovable « Live »
+- Zone APRÈS (serveur dns106), certificats, suivi HTTPS
+- Contrôles finaux : redirections et console ; capture de l'accueil
+
+Outils déclarés : Claude (compte personnel, entraînement désactivé, capture au dossier PREUVES), utilisé pour l'analyse DNS et les contrôles.
+
+7. RETOUR D'EXPÉRIENCE
+
+- Ce qui a coincé : la suspension du domaine au registre, invisible depuis OVH (statut « Active » affiché), et l'identifiant au format NIC/utilisateur.
+- Ce qui a été trouvé pour s'en sortir : interroger le registre AFNIC et le serveur DNS faisant autorité, pour distinguer un problème de zone d'un problème de domaine avant de toucher quoi que ce soit.
+- Proposition pour la méthode : ajouter à la procédure de connexion de domaine une vérification préalable du statut au registre (RDAP) et un relevé de la zone existante. Ici, aucune saisie n'était nécessaire.
+
+Je reste disponible pour toute question.
+
+Bien à vous,
+Godson Onel EZIN

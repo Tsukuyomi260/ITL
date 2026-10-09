@@ -1,0 +1,16 @@
+Controle 2026-10-05T18:19Z (UTC)
+meddom.fr A 185.158.133.1
+www.meddom.fr A 185.158.133.1
+_lovable.meddom.fr TXT lovable_verify=3acca8223e28859585b3fa3c4f475ce06ff705f4b9b5c53db473b2c3710710cd
+_lovable.www.meddom.fr TXT lovable_verify=907e4642c962e14b43a7207755fe174f4b473e5bb8561d93d308b64e1c8fe69c
+meddom.fr MX 1 mx1.mail.ovh.net
+meddom.fr MX 5 mx2.mail.ovh.net
+meddom.fr MX 100 mx3.mail.ovh.net
+meddom.fr TXT v=spf1 include:mx.ovh.com -all
+meddom.fr TXT 1|www.meddom.fr
+== https://meddom.fr
+HTTP/1.1 421 Misdirected Request
+Server: cloudflare
+== https://www.meddom.fr
+HTTP/1.1 421 Misdirected Request
+Server: cloudflare

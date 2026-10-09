@@ -1,0 +1,9 @@
+Comparaison caractere par caractere (valeurs copiees par Godson depuis OVH et Lovable + DNS public 8.8.8.8 a 18:19Z)
+_lovable: OVH==Lovable True | DNS public==Lovable True | longueur 79
+  Lovable : lovable_verify=3acca8223e28859585b3fa3c4f475ce06ff705f4b9b5c53db473b2c3710710cd
+  OVH     : lovable_verify=3acca8223e28859585b3fa3c4f475ce06ff705f4b9b5c53db473b2c3710710cd
+  DNS     : lovable_verify=3acca8223e28859585b3fa3c4f475ce06ff705f4b9b5c53db473b2c3710710cd
+_lovable.www: OVH==Lovable True | DNS public==Lovable True | longueur 79
+  Lovable : lovable_verify=907e4642c962e14b43a7207755fe174f4b473e5bb8561d93d308b64e1c8fe69c
+  OVH     : lovable_verify=907e4642c962e14b43a7207755fe174f4b473e5bb8561d93d308b64e1c8fe69c
+  DNS     : lovable_verify=907e4642c962e14b43a7207755fe174f4b473e5bb8561d93d308b64e1c8fe69c

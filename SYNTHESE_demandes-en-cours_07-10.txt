@@ -1,0 +1,150 @@
+SYNTHÈSE DES DEMANDES EN COURS · 7 octobre 2026, soir
+Établie à partir des échanges WhatsApp du jour (Luidgi, la cliente MEDDOM, Liberateur) et des documents transmis.
+AVERTISSEMENT : tout ce qui suit vient de messages WhatsApp. L'article 4.7 rappelle qu'un message
+envoyé par un autre moyen que manager@itluxuoso.com ne lance, n'arrête et ne reprend aucun délai.
+Chaque point doit être confirmé par mail avant d'être exécuté.
+
+======================================================================
+1. MEDDOM · BM-02 — LA CLIENTE A VALIDÉ, UNE SEULE RÉSERVE
+======================================================================
+Retour de la cliente, transmis par Luidgi :
+  « J'aime beaucoup le design, j'aime beaucoup les textes. Le fait que ce soit bien organisé
+    avec trois images, simple et efficace, les petits arrondis autour des images. On tient
+    la bonne voie. »
+  Seule réserve : « les deux personnes affichées dans la hero section. Il faut que ce soient
+    des personnes noires, caribéennes. »
+  « Si tout est modifié, vous pouvez poster le site et m'informer de cela. »
+
+CE QUE ÇA CHANGE
+- Le site est validé par la cliente, sous réserve de l'image d'accueil.
+- Cette demande recoupe mon constat B4 du contrôle : l'image affichée ne provient pas du lot
+  fourni. La question de son origine reste entière, et devient secondaire : il faut de toute
+  façon une autre image.
+- Attention : le critère T13 impose des images issues du lot validé, sans rendu artificiel.
+  Si le lot ne contient pas de visuel correspondant à la demande, il faut une photo fournie
+  par l'Agence, pas une image générée.
+
+RESTE À FAIRE AVANT TOUTE MISE EN LIGNE
+  a) image d'accueil conforme à la demande de la cliente ;
+  b) corrections B1 (hébergeur) et B2 (légende) ;
+  c) preuves d'ouverture A1, A2, A3 (propriété du projet, exclusion d'entraînement, fiche
+     connaissance du projet) ;
+  d) mon dossier QA et le contrôle en 8 points ;
+  e) autorisation écrite de la direction ;
+  f) puis seulement, le rattachement du domaine.
+
+LIAISON DU DOMAINE
+Luidgi a écrit : « on garde le nouveau projet créé par Mbabi et il y rattache le nom de
+domaine là-dessus ». La formulation laisse entendre que c'est Liberateur qui réalise
+l'opération. À confirmer : si c'est lui, je n'ai pas à la faire, et la question du
+rattachement à BM-01 ne se pose plus.
+
+======================================================================
+2. INNOV-RH · nouveau projet — innov-rh.qualiobee.fr
+======================================================================
+Site : https://innov-rh.qualiobee.fr (hors Lovable, mais un projet Lovable « innovrh » existe,
+invitation reçue le 07/10 à 12h21).
+Contexte : la cliente repasse son audit de surveillance Qualiopi.
+
+DEMANDES DE LA CLIENTE
+  D1. Retirer l'encadrement « Certification » sur les fiches de formation
+      (capture : encadrement-certification-a-retirer.jpg).
+  D2. Bloc « Indicateurs de résultats » :
+        - Nombre de sessions réalisées : 1
+        - Taux de réussite : 100 %
+        - Retirer le taux de recommandation
+      (capture : bloc-indicateurs-de-resultats.jpg)
+  D3. Sur les pages de formation : retirer le questionnaire de contact et le remplacer par un
+      lien vers https://innov-rh.qualiobee.fr/catalogue/ , en incitant les apprenants à cliquer
+      pour débuter leur inscription.
+
+POINTS À CLARIFIER AVANT TOUTE ACTION
+  - Le site est hébergé sur qualiobee.fr : quel est le rapport avec le projet Lovable « innovrh » ?
+    Sur quel support travaille-t-on réellement ?
+  - Quels accès ? Espace d'administration, Lovable, dépôt ?
+  - D2 porte sur des données d'audit : les chiffres doivent être confirmés par écrit par la
+    cliente, via l'Agence. Ce sont des données verrouillées.
+  - D1 touche à une mention de certification : sujet sensible en audit Qualiopi. Confirmation
+    écrite indispensable.
+  - Ni bon de mission, ni jalon à ce jour.
+
+======================================================================
+3. MONBONKADO · demandes non urgentes, plan exigé avant toute action
+======================================================================
+Site : monbonkado.com — plateforme de bons cadeaux. Déjà concerné par le bon BM-04 (bandeau
+des partenaires), qui est une mission distincte.
+
+CADRE POSÉ PAR LUIDGI, mot pour mot ou presque :
+  « Ce ne sont pas des modifications à réaliser tout de suite. J'aimerais savoir si ce sont des
+    modifications que vous êtes aptes à faire. Il faudrait questionner le site avec le plan, et
+    me montrer que tout est OK pour que vous puissiez faire des modifications dessus de façon
+    cadrée et opérationnelle, puisque le site est quand même assez technique et il ne faudrait
+    pas casser quoi que ce soit. Me faire voir que tout est OK dans le plan que vous allez
+    mettre en place, m'expliquer les choses de façon simple et efficace. Et si tout est validé,
+    pouvoir faire les modifications, mais une fois que je vous aurai donné ma validation. »
+
+=> Livrable attendu : un plan d'intervention, expliqué simplement, validé avant exécution.
+   Aucune modification tant que ce plan n'est pas validé par écrit.
+
+DEMANDES REMONTÉES PAR LES PARTENAIRES
+  M1. Expiration des bons et fuseau horaire.
+      Un partenaire restaurateur a scanné le 26 septembre un bon expirant le 26 septembre :
+      le système l'a refusé comme expiré, alors qu'on était encore ce jour-là.
+      Demande : qu'un bon expire à 23 h 59 de son dernier jour, à l'heure de la Martinique.
+      Nature : correction d'un défaut de calcul de date, probablement lié au fuseau horaire
+      (UTC contre heure locale). Code sensible : relecture obligatoire avant publication.
+  M2. Champ modifiable au scan du QR code.
+      Lors d'un paiement test, le commerçant peut modifier le code du bon après l'avoir scanné.
+      Risque d'erreur de saisie côté vendeur.
+      Demande : verrouiller ce champ ; seul le montant à débiter reste saisissable.
+      Nature : touche au parcours de paiement. Code sensible.
+  M3. Prolongations de bons.
+      Deux demandes. Un code identifié : MBK-DFD7E461, à prolonger exceptionnellement
+      jusqu'en avril 2027. Échéance annoncée : la semaine prochaine.
+      Nature : opération sur des données de production, pas une modification de code.
+      Prudence particulière : écriture en base, sur un bon réel.
+
+DOCUMENTS REÇUS
+  - bon-cadeau-MBK-2B8EA172.pdf (exemple de bon)
+  - CATALOGUE INTERACTIF MONBONKADO 2026.pdf
+
+MON APPRÉCIATION, À VALIDER
+  M1 et M2 touchent au code sensible au sens de l'annexe E.4 : paiement, données, règles
+  métier. Toute modification doit être relue avant publication, et une version restaurable
+  créée au préalable. M3 est une écriture en base sur des bons réels : à traiter avec une
+  procédure écrite, et une capture avant et après.
+  Ces trois demandes sortent de la création de site (art. 2.2) : elles exigent un bon de
+  mission qui les prévoit expressément, comme BM-01 et BM-04.
+
+======================================================================
+4. ORGANISATION · ce que Luidgi annonce
+======================================================================
+  - Il recrute une assistante de direction, pour traiter les messages et ne lui remonter que
+    ce qui le nécessite. Il reconnaît ne pas être à l'aise avec la gestion des messages.
+  - Il propose de passer par WhatsApp pour transmettre les demandes de modification, et de
+    recevoir en retour les captures montrant que tout est conforme.
+  - Il souhaite faire un point financier à l'issue des missions test : « voir si c'est rentable
+    pour moi », « des ajustements sont nécessaires pour ne pas que je sois en faillite ce
+    mois-ci par rapport au nombre de modifications ».
+
+CE QUE J'EN RETIENS
+  - Le passage par WhatsApp est acceptable pour fluidifier le quotidien, mais l'article 4.7 est
+    sans ambiguïté : un message WhatsApp ne lance, n'arrête ni ne reprend aucun délai. Je
+    propose donc de garder WhatsApp pour les échanges courants, et de récapituler par mail à
+    manager@ tout ce qui touche à un délai, à un périmètre, à une validation ou à une mise en
+    ligne. C'est ce que je fais déjà, et cela ne lui demande aucun effort supplémentaire.
+  - Le point financier est à prendre au sérieux et sans inquiétude : le volume de modifications
+    hors création de site dépasse ce que le contrat-cadre prévoit. C'est précisément à cela que
+    servent les bons de mission distincts et les avenants (art. 13.11).
+
+======================================================================
+5. CE QUI RESTE SANS RÉPONSE DEPUIS LE 6 OCTOBRE
+======================================================================
+  1. Libellé du crédit en pied de page (« Site réalisé par IT Luxuoso » ou le libellé du document).
+  2. SIRET des mentions légales ; adresse d'IT Luxuoso (deux versions divergentes).
+  3. Lien de l'itinéraire : validation du lien de recherche Google proposé.
+  4. Dépôt GitHub : organisation à ouvrir, ou point écarté par écrit.
+  5. Jalon Upwork BM-02 : non ouvert.
+  6. BM-01 : acceptation, libération du jalon, arbitrage de la redirection www en 302.
+  7. Christiane Ducteil : date de livraison, photo en paysage, logo SVG, données de la cliente,
+     sort des pages sans contenu.

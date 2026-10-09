@@ -1,0 +1,2 @@
+Suivi propagation meddom.fr (heures UTC)
+18:18Z d.nic.fr meddom.fr NS=OK(ns106.ovh.net,dns106.ovh.net,dns106.ovh.net,ns106.ovh.net,5.196.41.1,5.196.41.1) | dns106.ovh.net meddom.fr A=OK(185.158.133.1,ns106.ovh.net,dns106.ovh.net,5.196.41.1) | 8.8.8.8 meddom.fr A=OK(185.158.133.1,dns106.ovh.net,ns106.ovh.net,5.196.41.1) | 8.8.8.8 www.meddom.fr A=OK(185.158.133.1,ns106.ovh.net,dns106.ovh.net,5.196.41.1)

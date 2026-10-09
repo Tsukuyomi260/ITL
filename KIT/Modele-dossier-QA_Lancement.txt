@@ -1,0 +1,65 @@
+DOSSIER QA · [RÉFÉRENCE DE LA MISSION] · palier Lancement
+Modèle provisoire (annexe H.3). Si l'Agence remet son gabarit QA avec le bon, c'est lui qui prime (art. 16.12).
+Heures en heure du Bénin (UTC+1), sauf mention contraire.
+
+1. IDENTIFICATION
+- Projet / client (désignation sectorielle) :
+- Palier : Lancement
+- Développeur :
+- Chef de projet : Godson Onel EZIN
+- Dates clés : dossier reçu le … · paquet envoyé le … · point de contrôle le … · site complet le …
+
+2. REGISTRE DES DÉLAIS
+(Coller le registre à jour : une ligne par événement, avec chaque pause et sa cause F / C / A / T.)
+
+3. GRILLES
+3.1 Critères de design applicables (annexe D), par cycle :
+    Code | Note 0-4 | Commentaire (fait constaté)
+    T1   |          |
+    ...
+    Non applicables : T10, H9, N4, P5, C1, C2 (+ autres justifiés)
+3.2 Grille G Lancement, par cycle :
+    G1 | G2 | G3 | G5 | G6 | G12 | G13 | G14 | D1 | D2 | D3 | D4 | D5
+    Non applicables : G4, G7 à G11
+
+4. MESURES (production, mobile et ordinateur)
+- Référencement : … / 100 (seuil 100)
+- Performance : … (seuil > 60)
+- Accessibilité : … (seuil ≥ 90)
+- Bonnes pratiques : … (seuil ≥ 90)
+- Erreurs de console, toutes pages : … (seuil 0)
+- Exploration (fichiers de l'Agence) : liens cassés … · pages orphelines … · redirections circulaires … (seuil 0)
+- Preuves : captures Lighthouse, export de l'exploration
+
+5. QA · LES 14 CONTRÔLES (annexe H.1)
+ 1 Orthographe .................. [OK / KO] · preuve :
+ 2 Images et sections ........... [OK / KO] · preuve :
+ 3 Structure .................... [OK / KO] · preuve :
+ 4 Affichage (3 écrans) ......... [OK / KO] · preuve :
+ 5 Contacts (téléphone réel) .... [OK / KO] · preuve :
+ 6 Formulaires .................. Non applicable (Lancement)
+ 7 Cas limites applicables ...... [OK / KO] · preuve :
+ 8 Prix ......................... [OK / KO / sans objet] · preuve :
+ 9 Référencement ................ [OK / KO] · preuve :
+10 Consentement et mesure ....... Non applicable (dès Business)
+11 Paiement ..................... Non applicable (Premium)
+12 Adresses de test ............. [OK / KO] · preuve :
+13 Sécurité ..................... [OK / KO] · preuve :
+14 Lien de l'Agence ............. [OK / KO] · preuve :
+
+6. ANOMALIES
+N° | Critère (étape F / code G) | Gravité (arrêt / mineure) | Statut | Date de correction
+
+7. CORRECTIONS MINEURES FAITES PAR MOI
+N° | Description | Capture avant | Capture après
+
+8. ÉCARTS ACCEPTÉS
+(Liste écrite, avec la date de la décision.)
+
+9. AJUSTEMENTS PROPOSÉS (faits seulement, jamais de montant)
+- Développeur : dates cible / réelle · cycles de reprise · preuves complètes à la première remise · données verrouillées respectées · retour d'expérience
+
+10. DÉCISION PROPOSÉE
+[ ] Mise en ligne
+[ ] Retour au développeur, anomalies d'arrêt : …
+La décision finale revient à la direction, par une autorisation écrite (art. 10.4).

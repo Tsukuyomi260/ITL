@@ -1,0 +1,184 @@
+DOSSIER QA · CTR-PRESTATAIRE-CDP-2026-001-BM-02 · MEDDOM · site de lancement
+Pré-rempli le 6 octobre 2026. Modèle provisoire (annexe H.3) : si l'Agence remet son gabarit QA, il prime (art. 16.12).
+Heures en heure du Bénin (UTC+1). Délai de remise du dossier QA : 1 jour ouvré après la livraison du site complet (art. 10.2).
+Légende : [ ] à remplir · NA = non applicable en Lancement.
+
+======================================================================
+1. IDENTIFICATION
+======================================================================
+- Projet : site de lancement MEDDOM (meddom.fr), grossiste en parapharmacie, Lamentin (Martinique)
+- Palier : Lancement (une page de 3 sections + mentions légales, sans formulaire, 3 images au plus)
+- Développeur : Mbabi Liberateur
+- Webdesigner : aucun (Lancement)
+- Chef de projet : Godson Onel EZIN
+- Production : Lovable, espace IT Luxuoso, projet « MEDDOM Coming Soon » (sauf contre-ordre de l'Agence)
+- État initial du projet (06/10 11:11) : Knowledge vide ; dernière publication le 28/07 à 19:26 (page « Site en cours de création »). Preuves : BM-02/PREUVES.
+- Dates clés :
+    Dossier projet reçu ........... 05/10/2026 18:58
+    Manques signalés .............. 06/10/2026 10:40
+    Paquet complet envoyé ......... 06/10/2026 10:45
+    Point de contrôle (cible) ..... 07/10/2026 · réel : [ ]
+    Site complet (cible) .......... 08/10/2026 · réel : [ ]
+    Dossier QA remis .............. [ ]
+    Autorisation de mise en ligne . [ ]
+    Mise en ligne ................. [ ]
+    Contrôle 24 h / 30 jours ...... [ ] / [ ]
+
+======================================================================
+2. REGISTRE DES DÉLAIS
+======================================================================
+Source : Registre-des-delais_IT-Luxuoso.xlsx, lignes BM-02. Coller ici l'extrait à jour au moment de la remise.
+Pauses demandées et leur cause (F / C / A / T) : [ ]
+
+======================================================================
+3. GRILLES
+======================================================================
+Barème : 0 absent · 1 hors sujet · 2 faible · 3 bon · 4 remarquable. Tout critère applicable doit être à 3 ou plus.
+Chaque commentaire décrit un fait constaté, avec son code.
+
+3.1 Critères de design applicables (annexe D), sans maquette
+Code    | Cycle 1 | Cycle 2 | Commentaire
+T1      |         |         |
+T2      |         |         |
+T3      |         |         |
+T4      |         |         |
+T5      |         |         |
+T6      |         |         |
+T7      |         |         |
+T8      |         |         |
+T9      |         |         |
+T11     |         |         |
+T12     |         |         |
+T13     |         |         |
+T14     |         |         |
+T15     |         |         |
+H1      |         |         |
+H2      |         |         | (titre attendu : variante B du PDF)
+H3      |         |         |
+H4      |         |         |
+H5      |         |         |
+H6      |         |         |
+H7      |         |         |
+H8      |         |         | (sur mobile, l'image avant le texte)
+N1      |         |         | (si en-tête)
+N2      |         |         |
+N3      |         |         | (si menu d'ancres)
+N5      |         |         |
+N6      |         |         |
+N7      |         |         |
+F1      |         |         |
+F2      |         |         | (sans « Gérer mes cookies » en Lancement)
+F3      |         |         |
+F4      |         |         |
+P1      |         |         |
+P2      |         |         |
+P3      |         |         |
+P4      |         |         |
+C3      |         |         |
+C4      |         |         |
+C5      |         |         |
+C6      |         |         |
+NA : T10 (pas de Figma), H9 (étape du webdesigner), N4 et P5 (une seule page), C1 et C2 (pas de formulaire). F5 facultatif.
+
+3.2 Grille G, Lancement (annexe G)
+Code | Critère                      | Cycle 1 | Cycle 2 | Commentaire
+G1   | Rendu visuel (critères 3.1)  |         |         |
+G2   | Contenus exacts              |         |         | (données verrouillées, PDF v2, aucun texte ajouté)
+G3   | Contacts                     |         |         | (appel réel, copie du numéro sur ordinateur, courriel, WhatsApp)
+G5   | Images (E.7)                 |         |         | (variantes, poids, srcset, alt ; vétiver max 768 px)
+G6   | Référencement de base        |         |         | (titre 46 signes, description, aperçu Meta validé)
+G12  | Sécurité                     |         |         | (HTTPS, aucun secret, en-têtes)
+G13  | Qualité technique            |         |         | (0 erreur console, 0 lien cassé, survol sur le cliquable)
+G14  | Mise en ligne                |         |         | (8 points, version restaurable, restauration datée)
+D1   | Maintenabilité               |         |         |
+D2   | Une seule source             |         |         | (fichier de constantes unique)
+D3   | Fidélité au design system    |         |         |
+D4   | Dossier de preuves           |         |         |
+D5   | Tenue des délais             |         |         | (accusé 1 j, PdC 07/10, manques sous 2 j)
+NA : G4, G7, G8, G9, G10, G11.
+
+======================================================================
+4. MESURES (production, mobile et ordinateur)
+======================================================================
+Indicateur                         | Seuil      | Mobile | Ordinateur
+Référencement (Lighthouse)         | 100        |        |
+Performance                        | plus de 60 |        |
+Accessibilité                      | 90 ou plus |        |
+Bonnes pratiques                   | 90 ou plus |        |
+Erreurs de console, toutes pages   | 0          |        |
+Exploration (fichiers de l'Agence, demandée dès l'annonce du site complet) :
+  liens cassés [ ] · pages orphelines [ ] · redirections circulaires [ ]
+Preuves : captures Lighthouse, export de l'exploration.
+
+======================================================================
+5. QA · LES 14 CONTRÔLES (annexe H.1)
+======================================================================
+ 1 Orthographe ............... [OK/KO] · preuve : [ ] · relire aussi l'absence de tout « [à confirmer] » avant mise en ligne
+ 2 Images et sections ........ [OK/KO] · 3 images max, même énergie · preuve : [ ]
+ 3 Structure ................. [OK/KO] · exploration de l'Agence · preuve : [ ]
+ 4 Affichage ................. [OK/KO] · 1440, 1280, 768, 390, 375 px ; Chrome, Safari, Firefox, Edge · preuve : [ ]
+ 5 Contacts .................. [OK/KO] · appel 0596 78 09 42 sur téléphone réel, copie sur ordinateur, mailto, wa.me · preuve : [ ]
+ 6 Formulaires ............... NA (aucun formulaire en Lancement)
+ 7 Cas limites ............... [OK/KO] · adresse inexistante (page d'erreur propre), réseau lent, accents à l'affichage · preuve : [ ]
+ 8 Prix ...................... [OK] · aucun tarif affiché (donnée verrouillée) · preuve : [ ]
+ 9 Référencement ............. [OK/KO] · titre, description, aperçu de partage (vérificateur Meta), fichiers d'indexation ; données structurées selon la décision de l'Agence · preuve : [ ]
+10 Consentement et mesure .... NA (dès Business) · vérifier qu'aucun cookie n'est déposé
+11 Paiement .................. NA (Premium)
+12 Adresses de test .......... [OK/KO] · aucune adresse lovable.app dans canonique, plan de site, aperçu, données structurées · preuve : [ ]
+13 Sécurité .................. [OK/KO] · HTTPS, aucun secret, en-têtes · preuve : [ ]
+14 Lien de l'Agence .......... [OK/KO] · « Création de site internet par IT Luxuoso, agence web en Martinique » + marqueurs utm selon décision · preuve : [ ]
+
+Contrôle de mise en ligne en 8 points (annexe F, étape 12) :
+ 1 Accueil sur https://meddom.fr ..................... [ ]
+ 2 Certificat valide + redirection de la variante .... [ ] (leçon BM-01 : vérifier 301 et non 302)
+ 3 Redirections depuis l'adresse provisoire .......... [ ]
+ 4 Formulaire ........................................ NA
+ 5 Appel, courriel, WhatsApp sur téléphone réel ...... [ ]
+ 6 0 erreur de console sur l'accueil ................. [ ]
+ 7 Fichiers d'indexation et plan de site ............. [ ]
+ 8 Aucune adresse de test ............................ [ ]
++ version restaurable (2 emplacements) [ ] · test de restauration daté [ ] · journal des commandes [ ]
+
+======================================================================
+6. ANOMALIES
+======================================================================
+N° | Étape F / code G | Gravité (arrêt / mineure) | Constat | Statut | Date de correction
+   |                  |                           |         |        |
+
+======================================================================
+7. CORRECTIONS MINEURES FAITES PAR MOI (dans Lovable, art. 9.13 à 9.15)
+======================================================================
+N° | Description | Capture avant | Capture après
+   |             |               |
+
+======================================================================
+8. ÉCARTS ACCEPTÉS
+======================================================================
+(Liste écrite, avec date et décision.)
+
+======================================================================
+9. AJUSTEMENTS PROPOSÉS (faits seulement, jamais de montant)
+======================================================================
+Développeur : date cible / réelle du point de contrôle [ ] et du site [ ] · cycles de reprise [ ] · preuves complètes à la première remise [ ] · données verrouillées respectées [ ] · retour d'expérience [ ]
+
+======================================================================
+10. DÉCISION PROPOSÉE
+======================================================================
+[ ] Mise en ligne
+[ ] Retour au développeur, anomalies d'arrêt : [ ]
+Préalable à toute mise en ligne : plus aucun « [à confirmer] » dans le site, droits des visuels confirmés, autorisation écrite de la direction (art. 10.4).
+
+======================================================================
+POINTS OUVERTS AUPRÈS DE L'AGENCE (mail du 06/10 10:40)
+======================================================================
+ 1 Projet Lovable / dépôt GitHub ...................... [ ]
+ 2 Image de la section 1 ............................. [ ]
+ 3 Données structurées ............................... [ ]
+ 4 Variantes d'image E.7 ............................. [ ]
+ 5 Marqueurs utm du pied de page ..................... [ ]
+ 6 WhatsApp, horaires ................................ [ ]
+ 7 Lien de la fiche Google ........................... [ ]
+ 8 Droits des visuels fournisseurs ................... [ ]
+ 9 Points « à confirmer » (vétiver, mentions) ........ [ ]
+10 Adresse d'IT Luxuoso dans les mentions ............ [ ]
+11 Date de mise en ligne visée ....................... [ ]

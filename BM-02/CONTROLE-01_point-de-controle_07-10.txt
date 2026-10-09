@@ -1,0 +1,129 @@
+CONTRÔLE N°1 · BM-02 · MEDDOM · site de lancement
+Aperçu contrôlé : https://meddom.lovable.app/
+Date : 7 octobre 2026, vers 11h40 (heure du Bénin). Contrôle sur écran d'ordinateur (1024 px) et mobile (375 px).
+Chef de projet : Godson Onel EZIN · Développeur : Mbabi Liberateur
+
+AVERTISSEMENT : ce contrôle porte sur l'aperçu fourni par téléphone. L'annonce formelle à
+manager@itluxuoso.com, avec les captures et les preuves d'ouverture, reste due. Mon délai d'un
+jour ouvré pour noter démarrera à cette annonce.
+
+======================================================================
+A. PORTE BLOQUANTE · ÉTAPE 1 DE L'ANNEXE F — NON FRANCHIE
+======================================================================
+Tant qu'un seul de ces points manque, la notation ne peut pas aller plus loin (art. 9.2).
+
+A1. Projet distinct. Le travail a été réalisé dans un projet Lovable créé par le développeur,
+    différent du projet « MEDDOM Coming Soon » relié au domaine. Ce n'est pas irrégulier en soi :
+    l'annexe E.4 prévoit que le développeur crée le projet. Mais il doit en avoir transféré la
+    propriété à l'Agence avant toute ligne de code, et rester simple invité.
+    À fournir : capture datée du projet dans l'espace de l'Agence.
+A2. Dépôt GitHub dans l'organisation de l'Agence : capture datée à fournir.
+A3. Exclusion d'entraînement : capture datée, compte visible, pour chaque outil d'IA déclaré.
+A4. Connaissance du projet : fiche en place dans la Knowledge, à valider par le chef de projet
+    avant toute ligne de code (art. 6.13). Non constatée.
+A5. Captures sur 3 écrans : non fournies.
+A6. Étape de livraison non précisée : point de contrôle, ou site complet ?
+
+======================================================================
+B. ÉCARTS CONSTATÉS SUR LE CONTENU
+======================================================================
+
+B1. PIED DE PAGE · libellé non conforme — à trancher par l'Agence
+    Constaté : « Site réalisé par IT Luxuoso »
+    Attendu (document des textes v2, p. 5, « libellé repris mot pour mot ») :
+    « Création de site internet par IT Luxuoso, agence web en Martinique »
+    L'annexe E.4 précise que le texte n'est jamais « IT Luxuoso » seul.
+    Le lien et ses marqueurs utm sont, eux, parfaitement conformes.
+    Note : la page actuellement en ligne sur meddom.fr affiche déjà la version courte. La question
+    est posée à l'Agence depuis le 6 octobre et reste sans réponse.
+
+B2. MENTIONS LÉGALES · hébergeur absent — manque de conformité légale
+    Le document des textes prévoyait : « Le site est hébergé par [hébergeur retenu, raison sociale,
+    adresse et site web, à renseigner à la mise en ligne]. » La ligne a disparu de la page.
+    L'identité de l'hébergeur est une mention obligatoire en droit français. À renseigner avant
+    la mise en ligne.
+
+B3. MENTIONS LÉGALES · SIRET absent
+    Le document donnait « SIRET : 893 125 559 00029 ». Seul le SIREN figure sur la page.
+    À noter : le document signalait un doute sur ce SIRET, rattaché à un établissement du Marin.
+    À confirmer par l'Agence, puis à rétablir.
+
+B4. IMAGE DE LA PAGE D'ACCUEIL · origine à vérifier
+    L'image affiche deux soignants en tunique rose dans un décor de végétation avec relief en
+    arrière-plan. Elle ne correspond pas visuellement au fichier proposé
+    (TUNIQUE PANTALON INFIRMIERS-ERES.jpg, deux soignants sur fond crème uni).
+    Le critère T13 impose des images issues du lot validé, sans rendu artificiel.
+    À demander au développeur : de quel fichier provient cette image, et a-t-elle été modifiée ?
+
+B5. BOUTON « OUVRIR L'ITINÉRAIRE » absent
+    Prévu au document des textes. Le lien n'a pas été fourni au développeur : ce n'est pas un
+    manquement de sa part. En attente de la décision de l'Agence (lien de recherche Google).
+
+B6. TEXTES AJOUTÉS, non prévus au document
+    - Légende « FAUTEUIL DE CONFORT » sous l'image du catalogue.
+    - Titre « Le vétiver » au-dessus du bloc vétiver.
+    Aucun des deux ne figure au document des textes. Le second est défendable pour la lisibilité ;
+    le premier est à retirer ou à faire valider.
+
+======================================================================
+C. CE QUI EST CONFORME
+======================================================================
+Référencement
+  - Balise titre : « MEDDOM, grossiste en parapharmacie au Lamentin », 46 signes — exact.
+  - Méta-description : 144 signes — exacte.
+  - Aperçu de partage : og:title, og:description, og:url, og:image renseignés.
+  - Balise canonique et og:url pointent vers https://meddom.fr/ — aucune adresse lovable.app
+    dans la page. Idem sur la page des mentions légales.
+  - Aucune donnée structurée : conforme au palier Lancement (annexe B).
+Contenus
+  - Sur-titre, titre (variante B), description, boutons : repris à l'identique.
+  - Section 2 : titre, bloc parapharmacie et ses 5 gammes, phrase de relance : repris à l'identique.
+  - Section 3 : titre, introduction, coordonnées, libellés des boutons : repris à l'identique.
+  - Les éléments « [à confirmer] » sont correctement masqués, et non remplacés par un texte
+    provisoire : conforme à la décision de l'appel du 6 octobre.
+Contacts
+  - tel:+596596780942 et tel:+596696324525 — corrects.
+  - mailto:meddom@orange.fr — correct.
+  - https://wa.me/596696324525 — correct, conforme à la décision de l'appel.
+Images (annexe E.7)
+  - srcset et sizes présents sur les quatre images.
+  - Attributs width et height déclarés partout.
+  - decoding="async" partout ; loading="eager" sur l'image d'accueil, "lazy" sur les autres.
+  - Textes de remplacement descriptifs, en français, sans accumulation de mots-clés.
+  - Variantes servies : 480 px observé, poids légers (logo 4 Ko, accueil 17 Ko).
+Structure et technique
+  - Trois sections, conformes au palier Lancement.
+  - Hiérarchie des titres : H1 > H2 > H3 > H2 — cohérente.
+  - Aucun défilement horizontal à 1024 px ni à 375 px.
+  - 0 erreur de console sur la page d'accueil et sur les mentions légales.
+  - Page des mentions légales présente et reliée depuis le pied de page.
+  - Année du pied de page : 2026 (vérifier qu'elle est calculée et non écrite en dur).
+  - Aucune publication : meddom.fr affiche toujours la page « Site en cours de création ».
+
+======================================================================
+D. CONTRÔLES QUE JE DOIS ENCORE FAIRE MOI-MÊME
+======================================================================
+D1. Mesures Lighthouse.
+    MOBILE, relevé le 07/10 à 11h59 (capture au dossier PREUVES) : TOUS LES SEUILS ATTEINTS.
+      Référencement 100 (seuil 100) · Performance 94 (seuil plus de 60)
+      Accessibilité 100 (seuil 90 ou plus) · Bonnes pratiques 100 (seuil 90 ou plus)
+    ORDINATEUR : reste à relever (l'annexe E.6 exige les deux).
+D2. Appel testé sur téléphone réel, et copie du numéro sur ordinateur.
+D3. WhatsApp testé sur téléphone réel.
+D4. Aperçu de partage validé au vérificateur de Meta.
+D5. Fichiers d'indexation : robots.txt, llms.txt, llms-full.txt, plan de site.
+D6. Vérifier que l'année du pied de page est calculée automatiquement.
+D7. Contraste WCAG AA du texte sur l'image d'accueil (T3).
+D8. Captures sur les navigateurs garantis au bon de mission.
+
+======================================================================
+E. APPRÉCIATION D'ENSEMBLE
+======================================================================
+Le travail est sérieux. Les textes sont repris fidèlement, le référencement de base est exact au
+signe près, le traitement des images respecte la consigne E.7, les liens de contact sont corrects,
+et la console est propre. Les éléments non confirmés ont été masqués comme convenu, et rien n'a
+été publié.
+
+Les écarts relevés sont peu nombreux et corrigeables rapidement. Le point qui bloque réellement
+n'est pas la qualité du rendu, mais les preuves d'ouverture (section A) : sans elles, la porte
+bloquante de l'annexe F reste fermée et la notation ne peut pas être prononcée.

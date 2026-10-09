@@ -1,0 +1,127 @@
+VÉRIFICATION DU DOSSIER PROJET · « À la recherche » · annexe A
+Chef de projet : Godson Onel EZIN · 8 octobre 2026
+Document reçu : Brief_production_A_la_recherche.pdf (8 pages) + deux logos en PDF.
+
+Rappel : l'article 5.2 me demande de vérifier le dossier avec l'annexe A et de signaler tout
+élément manquant ou contradictoire sous un jour ouvré. Sans signalement dans ce délai, le
+dossier est réputé complet. D'où ce document.
+
+======================================================================
+1. LE POINT PRINCIPAL : LE PÉRIMÈTRE DÉPASSE LE PALIER LANCEMENT
+======================================================================
+Le brief décrit un site qui ne correspond pas à ce que l'annexe B prévoit en Lancement.
+
+CE QUE PRÉVOIT LE PALIER LANCEMENT        CE QUE DEMANDE LE BRIEF
+Une page, 3 sections au plus              8 blocs : accueil, services, méthode, pour qui,
+                                          zone, rendez-vous, contact, pages légales
+Pas de formulaire                         Formulaire de contact demandé
+Mentions légales seulement                Mentions légales ET politique de confidentialité
+Titre, description, aperçu de partage     Données structurées demandées
+Aucune mesure, aucun cookie               (non précisé)
+(aucune prise de rendez-vous, à aucun     Prise de rendez-vous en ligne demandée
+ palier avant Premium)
+
+Deux points méritent une attention particulière.
+
+a) Le formulaire de contact.
+   L'annexe B l'exclut expressément en Lancement : « Non inclus : formulaire, pages en plus,
+   données structurées, mesure d'audience, bandeau de cookies. » Il apparaît à partir du palier
+   Essentiel, relié à Resend.
+
+b) La prise de rendez-vous en ligne.
+   Je ne la trouve dans aucun palier avant Premium. L'annexe B cite la prise de rendez-vous
+   uniquement comme aboutissement possible d'un tunnel sur mesure, en Premium.
+   C'est le point le plus lourd du brief, et celui qui m'inquiète le plus.
+
+CONSÉQUENCE
+Le palier n'est pas indiqué dans le brief. Avant toute production, il faut que l'Agence le
+fixe, ou qu'elle précise par écrit quels éléments sont retirés du périmètre.
+Je ne peux ni ajouter ni retirer une exigence de moi-même (art. 2.5), ni modifier le périmètre
+promis au client (art. 6.15). Toute demande qui en sort passe par l'Agence, pour un avenant.
+
+Élément de contexte, communiqué à titre d'information : la facture réglée s'élève à 306,42 € TTC
+pour le site de lancement et l'adresse email professionnelle. Je n'ai pas à connaître ni à
+commenter l'économie du dossier ; je le signale seulement parce que l'écart entre ce montant et
+le périmètre décrit mérite, me semble-t-il, une vérification avant que nous engagions le travail.
+
+======================================================================
+2. DEUX PRESTATIONS QUI SORTENT DE LA CRÉATION DE SITE
+======================================================================
+Le contrat-cadre couvre la création de site sur quatre paliers (art. 2.2). Deux éléments du
+brief n'en relèvent pas, et appellent un bon de mission qui les prévoie expressément, comme
+l'ont fait les bons BM-01 et BM-04 :
+
+a) La réservation du nom de domaine.
+b) La création de l'adresse email professionnelle, avec les enregistrements MX, SPF, DKIM et
+   DMARC, et les tests d'envoi et de réception.
+
+Ce second point est techniquement proche du bon BM-01, et je peux le réaliser. Mais il doit
+faire l'objet d'un bon distinct, et il suppose un accès au domaine, qui n'est pas encore réservé.
+
+======================================================================
+3. VÉRIFICATION ÉLÉMENT PAR ÉLÉMENT (annexe A)
+======================================================================
+ÉLÉMENT                 ÉTAT        CE QUI MANQUE
+Palier et dates         MANQUANT    Palier non indiqué. Aucune date de démarrage, aucun délai
+                                    promis au client, aucune date de mise en ligne visée.
+Données verrouillées    INCOMPLET   Nom commercial non tranché : « A la recherche » ou
+                                    « Tracé de Réseau ». L'orthographe exacte, accent compris,
+                                    doit être fixée : elle conditionne le titre, le logo et le
+                                    référencement.
+                                    Adresse de l'entreprise : non fournie.
+                                    Adresse email à afficher : non fournie. Celle du brief,
+                                    gab.plomberie@gmail.com, est expressément à ne pas publier.
+                                    Téléphone : +596 696 95 00 77, seule donnée confirmée.
+                                    Liste exacte des services : « à vérifier ».
+                                    SIREN, SIRET, forme juridique, capital : absents, alors
+                                    qu'ils sont nécessaires aux mentions légales.
+Textes                  MANQUANT    Aucun texte rédigé. Le brief indique que la présentation de
+                                    l'entreprise, écrite ou audio, est « à vérifier ».
+                                    L'annexe A demande des textes rédigés avant le design, issus
+                                    de l'entretien, avec tout point douteux marqué « à vérifier
+                                    client ».
+Lot d'images            MANQUANT    « Photos : à vérifier ». Aucune image reçue. Le palier
+                                    Lancement en prévoit trois.
+                                    Les deux logos sont fournis en PDF : il faudra des fichiers
+                                    exploitables pour le web, et un favicon.
+                                    Droits d'usage : non précisés.
+Conformité              INCOMPLET   Mentions légales : les données de l'entreprise manquent.
+                                    Politique de confidentialité : nécessaire dès lors qu'un
+                                    formulaire collecte des données personnelles.
+Freelances retenus      MANQUANT    Aucun développeur désigné dans le brief.
+Accès à ouvrir          MANQUANT    Le nom de domaine n'est pas réservé. Aucun accès listé :
+                                    ni espace de production, ni dépôt, ni Search Console.
+Brief stratégique       SANS OBJET  Non requis en Lancement.
+Plan de site            SANS OBJET  Non requis en Lancement. Mais si le palier change, il
+                                    devient obligatoire, signé, avec trois variantes de titre.
+Inspirations            SANS OBJET  Non requis en Lancement.
+
+======================================================================
+4. LES SIX POINTS DE VIGILANCE DU BRIEF LUI-MÊME
+======================================================================
+Le document les signale page 6, et je les reprends : ils sont tous bloquants.
+  1. Le nom exact de l'entreprise.
+  2. Le nom de domaine et l'adresse email souhaités.
+  3. La réception des contenus : la tâche de vérification du 27 août est encore ouverte.
+  4. Les décisions du rendez-vous du 15 septembre : aucun compte rendu n'est saisi.
+  5. La technique de détection exacte. Le brief mentionne « colométrie », probablement
+     « colorimétrie ». Sur un site destiné à des assureurs, un terme technique erroné coûte
+     cher en crédibilité : il doit être confirmé par le client.
+  6. Le nom du concurrent principal.
+
+======================================================================
+5. CE QUE JE PROPOSE
+======================================================================
+Je ne peux pas rédiger un paquet de départ utile en l'état : le développeur n'aurait ni texte,
+ni image, ni nom d'entreprise, ni domaine. Lui envoyer un paquet vide ferait courir son délai
+pour rien, et nous ferait perdre du temps à tous les deux.
+
+Je propose donc :
+  1. L'Agence fixe le palier, ou précise par écrit ce qui est retiré du périmètre.
+  2. L'Agence lève les six points de vigilance avec le client, et nous transmet les données
+     verrouillées, les textes et les images.
+  3. Deux bons distincts sont ouverts pour la réservation du domaine et la création de
+     l'adresse email professionnelle.
+  4. Dès réception, je rédige le paquet de départ et le bon du développeur sous un jour ouvré.
+
+En attendant, j'ai préparé la trame du paquet, de sorte qu'il ne reste plus qu'à l'alimenter.

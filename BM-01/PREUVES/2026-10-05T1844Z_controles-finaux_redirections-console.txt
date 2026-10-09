@@ -1,0 +1,17 @@
+Controles 2026-10-05T18:44Z UTC
+-- http://meddom.fr
+HTTP/1.1 301 Moved Permanently
+Location: https://meddom.fr/
+-- https://meddom.fr
+HTTP/1.1 200 OK
+-- http://www.meddom.fr
+HTTP/1.1 302 Found
+Location: https://meddom.fr/
+-- https://www.meddom.fr
+HTTP/1.1 302 Found
+Location: https://meddom.fr/
+-- https://www.meddom.fr/mentions-legales
+HTTP/1.1 302 Found
+Location: https://meddom.fr/mentions-legales
+-- Console navigateur (accueil https://meddom.fr, apres rechargement) : 0 message, 0 erreur
+-- canonical=https://meddom.fr/ ; og:url=https://meddom.fr/ ; aucune reference *.lovable.app dans le HTML

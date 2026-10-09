@@ -1,0 +1,19 @@
+Requetes DNS publiques meddom.fr - 2026-10-05T1727Z (UTC)
+== serveur 8.8.8.8 ==
+NS : meddom.fr : Le nom DNS n'existe pas
+A : meddom.fr : Le nom DNS n'existe pas
+AAAA : meddom.fr : Le nom DNS n'existe pas
+MX : meddom.fr : Le nom DNS n'existe pas
+TXT : meddom.fr : Le nom DNS n'existe pas
+== serveur 1.1.1.1 ==
+NS : meddom.fr : Le nom DNS n'existe pas
+A : meddom.fr : Le nom DNS n'existe pas
+AAAA : meddom.fr : Le nom DNS n'existe pas
+MX : meddom.fr : Le nom DNS n'existe pas
+TXT : meddom.fr : Le nom DNS n'existe pas
+== serveur d.nic.fr ==
+NS : meddom.fr : Le nom DNS n'existe pas
+A : meddom.fr : Le nom DNS n'existe pas
+AAAA : meddom.fr : Le nom DNS n'existe pas
+MX : meddom.fr : Le nom DNS n'existe pas
+TXT : meddom.fr : Le nom DNS n'existe pas

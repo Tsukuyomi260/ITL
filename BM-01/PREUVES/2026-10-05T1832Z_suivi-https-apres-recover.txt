@@ -1,0 +1,6 @@
+Suivi HTTPS apres Recover (UTC)
+18:32Z apex=421  | www=421 
+18:35Z apex=421  | www=421 
+18:37Z apex=421  | www=421 
+18:39Z apex=421  | www=421 
+18:41Z apex=200  | www=302 https://meddom.fr/
